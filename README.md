@@ -1,58 +1,40 @@
-# Smart Expense Tracker API
+# 💰 Smart Expense Tracker API
 
-A REST API for managing personal expenses, built using Node.js and Express.js.
+A RESTful API for managing personal expenses, built using **Python and Flask**.
 
-## Features
+The API allows users to add, view, update, delete, filter, and calculate expenses.
+
+## 🚀 Features
 
 - Add an expense
 - View all expenses
+- Update an expense
+- Delete an expense
 - Filter expenses by category
 - Calculate total expenses
-- Calculate total expenses by category
-- Delete an expense
 - Input validation and error handling
-- Automated API tests using Jest and Supertest
+- Automatic expense ID generation
+- Automated API testing using pytest
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- Node.js
-- Express.js
-- JavaScript
-- Jest
-- Supertest
+- Python
+- Flask
+- REST API
+- pytest
+- Postman
+- Git
+- GitHub
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 smart-expense-tracker/
+│
+├── app.py
 ├── README.md
-├── AI_NOTES.md
+├── pytest.ini
 ├── .gitignore
-├── package.json
-├── package-lock.json
-├── src/
-│   ├── app.js
-│   ├── server.js
-│   ├── controllers/
-│   │   └── expenseController.js
-│   ├── data/
-│   │   └── expenses.js
-│   └── routes/
-│       └── expenseRoutes.js
+│
 └── tests/
-    └── expense.test.js
-
-```
-...
-
-## Installation
-npm install
-
-## Run the Server
-npm start
-
-## Run Tests
-npm test
-
-## API Endpoints
-...
+    └── test_expenses.py
